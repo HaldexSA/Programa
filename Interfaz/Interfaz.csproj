@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Logica\Logica.csproj" />
+    <None Include="Logica\Logica.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logica\bin\Debug\netcoreapp3.1\" />
+  </ItemGroup>
+
+</Project>
